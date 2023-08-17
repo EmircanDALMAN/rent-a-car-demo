@@ -8,6 +8,7 @@ import CarImg4 from '../../images/cars-big/bmw-box.png';
 import CarImg5 from '../../images/cars-big/benz-box.png';
 import CarImg6 from '../../images/cars-big/passat-box.png';
 import Image from 'next/image';
+import BookBanner from '@/components/BookBanner';
 
 function Models() {
  return (
@@ -24,11 +25,9 @@ function Models() {
           <div className="models-div__box__descr__name-price__name">
            <p>Audi A1</p>
            <span>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
+            {Array.from(Array(5)).map((index) => (
+             <i className="fa-solid fa-star" key={index}></i>
+            ))}
            </span>
           </div>
           <div className="models-div__box__descr__name-price__price">
@@ -275,18 +274,7 @@ function Models() {
       </div>
      </div>
     </div>
-    <div className="book-banner">
-     <div className="book-banner__overlay"></div>
-     <div className="container">
-      <div className="text-content">
-       <h2>Book a car by getting in touch with us</h2>
-       <span>
-        <i className="fa-solid fa-phone"></i>
-        <h3>(123) 456-7869</h3>
-       </span>
-      </div>
-     </div>
-    </div>
+    <BookBanner />
     <Footer />
    </section>
   </>

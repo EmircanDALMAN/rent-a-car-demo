@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9945ad7-5d66-4fb8-b067-373d1154fbff" name="Changes" comment="" />
+    <list default="true" id="f9945ad7-5d66-4fb8-b067-373d1154fbff" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/components/BookBanner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/team/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/team/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarData.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChooseUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChooseUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Faq.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroPages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroPages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PickCar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PickCar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanTrip.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanTrip.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,20 +39,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TbVcN7ksDpUlNYn94WFbw0GSKu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/dalma/OneDrive/Masaüstü/rent-a-car/src/app",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/dalma/OneDrive/Masaüstü/creativevitrin",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,11 +85,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691311845916</updated>
-      <workItem from="1691311846929" duration="7654000" />
+      <workItem from="1691311846929" duration="9341000" />
+      <workItem from="1691435883834" duration="5088000" />
+      <workItem from="1691694148053" duration="39000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1691320184224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691320184224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

@@ -1,88 +1,81 @@
+import logo from '../images/logo/logo.png';
+import Image from 'next/image';
+
 function Footer() {
-    return (
-        <>
-            <footer>
-                <div className="container">
-                    <div className="footer-content">
-                        <ul className="footer-content__1">
-                            <li>
-                                <span>CAR</span> Rental
-                            </li>
-                            <li>
-                                We offers a big range of vehicles for all your driving needs. We
-                                have the perfect car to meet your needs.
-                            </li>
-                            <li>
-                                <a href="tel:123456789">
-                                    <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
-                                </a>
-                            </li>
+ return (
+  <>
+   <footer>
+    <div className="container">
+     <div className="footer-content">
+      <ul className="footer-content__1">
+       <li>
+        {/*<span>CAR</span> Rental*/}
+        <Image src={logo} alt="" className="w-3/6" />
+       </li>
+       <li>Tüm sürüş ihtiyaçlarınız için geniş bir araç yelpazesi sunuyoruz. İhtiyaçlarınızı karşılamak için mükemmel bir araca sahibiz.</li>
+       <li>
+        <a href="#">
+         <i className="fa-solid fa-phone"></i> &nbsp; +90 (552) 456 41 26
+        </a>
+       </li>
 
-                            <li>
-                                <a
-                                    href="mailto:
-                carrental@gmail.com"
-                                >
-                                    <i className="fa-solid fa-envelope"></i>
-                                    &nbsp; firmaniz@gmail.co
-                                </a>
-                            </li>
+       <li>
+        <a href="#">
+         <i className="fa-solid fa-envelope"></i>
+         &nbsp; firmaniz@domain.com
+        </a>
+       </li>
 
-                            <li>
-                                <a
-                                    style={{fontSize: "14px"}}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href="#"
-                                >
-                                    Design by Emircan Dalman
-                                </a>
-                            </li>
-                        </ul>
+       <li>
+        <a style={{ fontSize: '14px' }} target="_blank" rel="noreferrer" href="#">
+         Design by Emircan Dalman
+        </a>
+       </li>
+      </ul>
 
-                        <ul className="footer-content__2">
-                            <li>Company</li>
-                            <li>
-                                <a href="#home">New York</a>
-                            </li>
-                            <li>
-                                <a href="#home">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#home">Mobile</a>
-                            </li>
-                            <li>
-                                <a href="#home">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#home">How we work</a>
-                            </li>
-                        </ul>
+      <ul className="footer-content__2">
+       <li>ŞİRKET</li>
+       <li>
+        <a href="#">Anasayfa</a>
+       </li>
+       <li>
+        <a href="about">Hakkımızda</a>
+       </li>
+       <li>
+        <a href="models">Araç Modelleri</a>
+       </li>
+       <li>
+        <a href="team">Ekibimiz</a>
+       </li>
+       <li>
+        <a href="contact">İletişim</a>
+       </li>
+      </ul>
 
-                        <ul className="footer-content__2">
-                            <li>Working Hours</li>
-                            <li>Mon - Fri: 9:00AM - 9:00PM</li>
-                            <li>Sat: 9:00AM - 19:00PM</li>
-                            <li>Sun: Closed</li>
-                        </ul>
+      <ul className="footer-content__2">
+       <li>MESAİ SAATLERİ</li>
+       <li>HAFTAİÇİ: 9:00AM - 9:00PM</li>
+       <li>CUMRTSİ: 9:00AM - 19:00PM</li>
+       <li>PAZAR: Kapalı</li>
+      </ul>
 
-                        <ul className="footer-content__2">
-                            <li>Subscription</li>
-                            <li>
-                                <p>Subscribe your Email address for latest news & updates.</p>
-                            </li>
-                            <li>
-                                <input type="email" placeholder="Enter Email Address"></input>
-                            </li>
-                            <li>
-                                <button className="submit-email">Submit</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </>
-    );
+      <ul className="footer-content__2">
+       <li>ABONELİK</li>
+       <li>
+        <p>En son haberler ve güncellemeler için E-posta adresinize abone olun.</p>
+       </li>
+       <li>
+        <input type="email" placeholder="E-mail Adresinizi Giriniz"></input>
+       </li>
+       <li>
+        <button className="submit-email">Abone Ol</button>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </footer>
+  </>
+ );
 }
 
 export default Footer;

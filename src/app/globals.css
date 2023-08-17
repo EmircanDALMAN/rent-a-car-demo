@@ -873,7 +873,7 @@ body {
 
 .plan-section {
   background-color: #fff;
-  padding: 5.3rem 0
+  /*padding: 5.3rem 0*/
 }
 
 .plan-container {
@@ -903,7 +903,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  margin-top: 3.7rem;
+  /*margin-top: 3.7rem;*/
   padding: 0 3rem
 }
 
@@ -949,9 +949,9 @@ body {
   line-height: 1.43
 }
 
-.pick-section {
-  padding: 10rem 0
-}
+/*.pick-section {*/
+/*  padding: 10rem 0*/
+/*}*/
 
 .pick-container {
   display: flex;
@@ -1178,10 +1178,10 @@ body {
 
 .banner-content {
   align-items: center;
+  justify-content: center;
   color: #fff;
   display: flex;
   height: 100%;
-  justify-content: space-between;
   width: 100%
 }
 
@@ -1478,7 +1478,7 @@ body {
   background-position: 0 70%;
   background-repeat: no-repeat;
   background-size: auto;
-  padding: 10rem 0
+  /*padding: 10rem 0*/
 }
 
 .faq-content {
@@ -1861,7 +1861,7 @@ footer {
   align-items: center;
   display: flex;
   gap: 5rem;
-  margin: 10rem auto;
+  margin: 5rem auto;
   max-width: 90rem
 }
 
@@ -1994,7 +1994,7 @@ footer {
     height:-moz-fit-content;
     height: -webkit-fit-content;
     height: fit-content;
-    padding: 1rem 0
+    /*padding: 1rem 0*/
   }
 }
 

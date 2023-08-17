@@ -22,17 +22,17 @@ function Navbar() {
      <ul className="mobile-navbar__links">
       <li>
        <Link onClick={openNav} href="/">
-        Home
+        Anasayfa
        </Link>
       </li>
       <li>
        <Link onClick={openNav} href="/about">
-        About
+        Hakkımızda
        </Link>
       </li>
       <li>
        <Link onClick={openNav} href="/models">
-        Models
+        Araç Modelleri
        </Link>
       </li>
       {/*<li>*/}
@@ -42,12 +42,12 @@ function Navbar() {
       {/*</li>*/}
       <li>
        <Link onClick={openNav} href="/team">
-        Our Team
+        Ekibimiz
        </Link>
       </li>
       <li>
        <Link onClick={openNav} href="/contact">
-        Contact
+        İletişim
        </Link>
       </li>
      </ul>
@@ -64,19 +64,19 @@ function Navbar() {
      <ul className="navbar__links">
       <li>
        <Link className="home-link" href="/">
-        Home
+        Anasayfa
        </Link>
       </li>
       <li>
        {' '}
        <Link className="about-link" href="/about">
-        About
+        Hakkımızda
        </Link>
       </li>
       <li>
        {' '}
        <Link className="models-link" href="/models">
-        Vehicle Models
+        Araç Modelleri
        </Link>
       </li>
       {/*<li>*/}
@@ -88,24 +88,24 @@ function Navbar() {
       <li>
        {' '}
        <Link className="team-link" href="/team">
-        Our Team
+        Ekibimiz
        </Link>
       </li>
       <li>
        {' '}
        <Link className="contact-link" href="/contact">
-        Contact
+        İletişim
        </Link>
       </li>
      </ul>
-     <div className="navbar__buttons">
-      <Link className="navbar__buttons__sign-in" href="/">
-       Sign In
-      </Link>
-      <Link className="navbar__buttons__register" href="/">
-       Register
-      </Link>
-     </div>
+     {/*<div className="navbar__buttons">*/}
+     {/* <Link className="navbar__buttons__sign-in" href="/">*/}
+     {/*  Sign In*/}
+     {/* </Link>*/}
+     {/* <Link className="navbar__buttons__register" href="/">*/}
+     {/*  Register*/}
+     {/* </Link>*/}
+     {/*</div>*/}
 
      {/* mobile */}
      <div className="mobile-hamb" onClick={openNav}>
